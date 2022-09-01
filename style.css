@@ -1,0 +1,162 @@
+
+#header-wrapper{
+    background:  #111111 url(images/camp1.jpg) no-repeat center ;
+    position: relative;
+    background-size: cover;
+    height: 800px;
+    margin-bottom: 150px;
+}
+
+    #logo img{
+        height: 90px;  
+    }
+#about{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#about .col-md-6{
+    padding: 20px 10px;  
+}
+#about iframe{
+    border-radius: 15px;
+    box-shadow: -1em 0 .7em rgb(41, 40, 40);
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.623);
+}
+.animNAv{
+    background: #000000;
+}
+#serc{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#serc img{
+    width: 100px;
+    height: 100px;
+}
+#serc p{
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: medium;
+}
+#serc button{
+    color:aliceblue;
+    background-color: rgba(2, 2, 2, 0.849);
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+}
+#serc button:hover{
+    background-color: orange;
+}
+#doc1{
+    display: inline;
+}
+#more1{
+    display: none;
+}
+#doc2{
+    display: inline;
+}
+#more2{
+    display: none;
+}
+#doc3{
+    display: inline;
+}
+#more3{
+    display: none;
+}
+#doc4{
+    display: inline;
+}
+#more4{
+    display: none;
+}
+/**********************************************FOOTER *********************************************************/
+#footer{
+    background-color: #111111;
+    color: aliceblue;
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 90px;
+    overflow:hidden;
+}
+#footer .text-secondary{
+    text-align: justify;
+    padding-left: 89px;
+}
+#footer .titer{
+    font-family:cursive;
+    font-size: x-large; 
+    color: antiquewhite;  
+}
+#footer .bi {
+    margin: 10px;
+    color: rgb(185, 112, 69);
+}
+#footer .bi:hover{
+    color: rgb(228, 158, 28);
+}
+#mail a{
+    margin: 5px;
+    color: rgb(185, 112, 69);
+}
+#mail a:hover{
+    color: rgb(228, 158, 28);
+    text-decoration: none;   
+}
+/******************************************************************DESTINATION******************************************************/
+.containerr{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/cover.jpeg);
+    background-position:center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#tn{
+    color: rgb(163, 19, 43);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 80px;
+    margin-top: 150px;
+}
+#dest{
+    color: antiquewhite;
+}
+.card{
+    width: 270px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 60px auto ;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translateY(-50px);
+}
+.card1{background-image: url(images/dest/korbous/korbous.jpg);}
+.card2{background-image: url(images/dest/oued\ zitoun/ouedzitoun.jpg);}
+.card3{background-image: url(images/dest/djabel\ rassas/djabelrassas.jpg);}
+.card4{background-image: url(images/dest/oued\ zen/ouedzen.jpg);}
+.card5{background-image: url(images/dest/cap\ negro/capnegro.jpg);}
+.card6{background-image: url(images/dest/cap\ serrat/capserrat.jpg);}
+.card7{background-image: url(images/dest/djabel\ bargou/djabelbargou.jpg);}
+.card8{background-image: url(images/dest/jebel\ serj/jebelserj.jpg);}
+.card9{background-image: url(images/dest/bni\ mtir/bnimtir.jpg);}
+.card10{background-image: url(images/dest/tozeur/touzeur.jpg);}
+.card11{background-image: url(images/dest/zriba\ oulia/zribaoulia.jpg);}
+.card12{background-image: url(images/dest/La\ galite/lagalite.jpg);}
+.card13{background-image: url(images/dest/kuriat/kuriat.jpg);}
+.card14{background-image: url(images/dest/Ain\ draham/aindraham.jpg);}
+.card15{background-image: url(images/dest/chott\ jerid/chottjerid.jpg);}
+.card16{background-image: url(images/dest/Douiret/douiret.jpg);}

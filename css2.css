@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+section{
+    padding:2rem 9% ; 
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('images/camp3.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 40rem;
+  
+}
+.home .content{
+    text-align: center;
+    width: 60rem;
+    
+}
+.home .content h2{
+    color: var(--white);
+    font-size: 3rem;
+      text-transform: uppercase;
+}
+.heading {
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color:var(--black);
+}
+.heading span{
+    background: var(--green);
+    color:#fff;
+    display: inline-block;
+    padding: 1rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+.features .box-container .box1{
+    display: flex  ;
+    padding-top: 20%;
+   justify-content: center;
+   align-items: center;
+    white-space: 2;
+    border-radius: 20px ;
+}
+.features .box-container .box1 .mark1{
+    padding: 10%;
+align-items: center;
+
+
+}
+.features .box-container .box2{
+    display: flex  ;
+    padding-top: 20%;
+   justify-content: center;
+   align-items: center;
+    white-space: 2;
+    border-radius: 20px ;
+}
+.features .box-container .box2 .mark2{
+    padding: 10%;
+align-items: center;
+    
+    
+    }
+.features .box-container .box3{
+    display: flex  ;
+    padding-top: 10%;
+   justify-content: center;
+   align-items: center;
+    white-space: 2;
+    border-radius: 20px ;
+}
+.features .box-container .box3 .mark3{
+    padding: 10%;
+    align-items: center;
+    
+    
+    
+    }
+.features .box-container img{
+    border-radius: 20px;
+        max-width: 80%;
+        height: auto;
+    }
+    .features .box-container h1{
+        font-family: 'Roboto', sans-serif ;
+        font-size: 100px;
+    }
+    .features .box-container p{
+   
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+    }
+.features .box-container .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    border: .2rem solid var(--black);
+    color: var(--black);
+    cursor: pointer;
+}
+.features .box-container .btn:hover{
+    background: var(--green);
+    color: #fff;
+}
+.features .box-container img{
+    
+    max-width: 100%;
+    height: auto;
+
+}
